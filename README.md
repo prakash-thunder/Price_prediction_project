@@ -1,1 +1,2 @@
-# Price_prediction_project bengaluru home price prediction
+# Price_prediction_project 
+This project predict home price in bengaluru
