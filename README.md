@@ -1,37 +1,37 @@
 
 # Real Estate Price Prediction Project
 ## introduction
-Creating a Machine Learning model to predict the home prices in Bangalore, India. We are going to use the dataset from Kaggle.com. We are also going to create a single page website which will provide the front end to access our model for predictions.
+This project demonstrates a Machine learning model that predicts the home price in Banglore, India. It uses the dataset from Kaggle. It also contains a website for interaction with the machine learning model.
 
 ### Below data science concepts are used in this project
 
-  . Data loading and cleaning
+  - Data loading and cleaning
 
-  . Outlier detection and removal
+  - Outlier detection and removal
   
-  . Feature engineering
+  - Feature engineering
   
-  . Dimensionality reduction
+  - Dimensionality reduction
   
-  . Gridsearchcv for hyperparameter tunning
+  - Gridsearchcv for hyperparameter tunning
   
-  . K fold cross validation
+  - K fold cross validation
 
 ### Technology and tools used in this project
 
-   . Python
+   - Python
    
-   . Numpy and Pandas for data cleaning
+   - Numpy and Pandas for data cleaning
    
-   . Matplotlib for data visualization
+   - Matplotlib for data visualization
    
-   . Sklearn for model building
+   - Sklearn for model building
    
-   . Jupyter Notebook
+   - Jupyter Notebook
    
-   . Python flask for http server
+   - Python flask for http server
    
-   . HTML/CSS/Javascript for UI
+   - HTML/CSS/Javascript for UI
 ## Step
  1.We will first build a model using sklearn and linear regression using banglore home prices dataset from kaggle.com.
  
@@ -57,14 +57,14 @@ Creating a Machine Learning model to predict the home prices in Bangalore, India
     Step#7: Export the model
     Step#8: Export any other important info
 ## Frontend
-. HTML
+- HTML
 
-. CSS
+- CSS
 
-. Javascript
+- Javascript
 
 ## Backend
-. Flask
+- Flask
 
 
 ## Screenshots
@@ -73,6 +73,6 @@ Creating a Machine Learning model to predict the home prices in Bangalore, India
 
 
 ## Dataset Reference
-  .Bengaluru House price data
+  - Bengaluru House price data
   
-  .I have also uploaed the csv file in this repository Bengaluru_House_Data.csv
+  - I have also uploaed the csv file in this repository Bengaluru_House_Data.csv
