@@ -1,7 +1,7 @@
 
 # Real Estate Price Prediction Project
 ## introduction
-This project demonstrates a Machine learning model that predicts the home price in Banglore, India. It uses the dataset from Kaggle. It also contains a website for interaction with the machine learning model.
+This project demonstrates a Machine learning model that predicts the home price in Banglore using sklearn and linear regression. It uses the dataset from Kaggle. It also contains a website for interaction with the machine learning model.
 
 ### Below data science concepts are used in this project
 
