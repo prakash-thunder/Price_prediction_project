@@ -33,7 +33,7 @@ def predict():
         BATH=int(request.form["bath"]) 
         BHK=int(request.form["bhk"])
         # if __model is None:
-        with open(r'C:\Users\praka\Visual Studio CODE\PROJECT_HOME_PRICE\banglore_home_prices_model100.pickle','rb') as f:
+        with open('banglore_home_prices_model100.pickle','rb') as f:
             __model=pickle.load(f)
             
         print("loading saved artifacts...done")
