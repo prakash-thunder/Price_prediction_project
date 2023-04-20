@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home_price_prediction</title>
+</head>
+<style>
+    body{
+        background-color: aquamarine;
+    }
+</style>
+<body>
+    <form action="/predict" method="POST">
+        <center>
+            <h1>Bengaluru_Home_Price_Prediction</h1>
+            <h2>LOCATION</h2>
+            <select name="locat" id="slct">
+            </select>
+            <h2>TOTAL SQFT</h2>
+            <input type="number" name="total_sqft" id="" placeholder="enter total sqft area">
+            <h2>NO OF BATH</h2>
+            <input type="number" name="bath" id="" placeholder="enter no of bath">
+            <h2>BHK</h2>
+            <input type="number" name="bhk" id="" placeholder="enter no of bhk">
+            <br>
+            <br>
+            <button type="submit">PREDICT</button>
+            <br>
+        </center><br>
+    </form>
+    <center>
+        <h1>Estimeted price(in lacs):{{data}}</h1>
+    </center>
+</body>
+<!-- <script>
+    for (let index = 1; index <=10; index++) {
+        document.write(5*index+'<br>');
+        
+    }
+</script> -->
+<script>
+    // var car=['BMW',"Volvo",'Audi']
+
+    let locations = ["7th phase jp nagar", "bannerghatta road", "electronic city", "electronic city phase ii", "haralur road", "hebbal", "hennur road", "kanakpura road", "marathahalli", "raja rajeshwari nagar", "rajaji nagar", "sarjapur  road", "thanisandra", "uttarahalli", "whitefield", "yelahanka"];
+    // for (let index = 0; index < car.length; index++) {
+    //     document.write(car[index]+'<br>')
+
+    // }
+    // document.write(car.length)
+    var option = "";
+    for (let l = 0; l < locations.length; l++) {
+        option += '<option value="' + locations[l] + '">' + locations[l] + "</option>"
+
+
+    }
+    document.getElementById('slct').innerHTML = option
+</script>
+
+</html>
