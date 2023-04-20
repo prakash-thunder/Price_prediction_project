@@ -1,5 +1,5 @@
 from flask import Flask,request,render_template
-import pickle
+import joblib
 import sklearn
 import numpy as np
 
@@ -33,8 +33,7 @@ def predict():
         BATH=int(request.form["bath"]) 
         BHK=int(request.form["bhk"])
         # if __model is None:
-        with open('banglore_home_prices_model100.pickle','rb') as f:
-            __model=pickle.load(f)
+        __model=joblib.load('banglore_home_prices_model100.pickle','rb')
             
         print("loading saved artifacts...done")
         print(LOC,SQFT,BATH,BHK)
